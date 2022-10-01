@@ -1,0 +1,19 @@
+#bob1 {
+    color:rgb(0,0,255);
+    font-size: 24px;
+}
+#bob2 {
+    background-color: hsl(120,100%,75%);
+    font-weight: bold;
+}
+.gen {
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.class1 {
+    background-color: hsl(0,100%,83%);
+    font-size: 14px;
+}
+
+.class2 {
+    font-size: 20px;
+}

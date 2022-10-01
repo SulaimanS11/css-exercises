@@ -1,0 +1,15 @@
+.bob1, .bob2 {
+    font-size: 28px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+
+
+.bob1 {
+    background-color: black;
+    color: white;
+}
+
+.bob2 {
+    background-color: yellow;
+}
