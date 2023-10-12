@@ -1,11 +1,15 @@
 .container {
+  display: flex;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
+  display: flex;
   background: palevioletred;
   font-weight: bold;
   text-align: center;
