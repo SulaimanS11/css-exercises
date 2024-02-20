@@ -27,37 +27,55 @@ input {
   margin-bottom: 16px;
 }
 
-.header,
-.left-links,
-.right-links {
+button {
+  padding: 8px 16px;
+}
+
+body{
+  display: flex; /*this allows us to make the flex box a column which fills out the page*/
+  flex-direction: column;
+}
+.header{
   display: flex;
 }
 
 .header {
-  background-color: rgb(243, 164, 243);
+  /* background-color: rgb(243, 164, 243); */
   justify-content: space-between;
+  padding:16px;
 }
 
-.left-links, .right-links {
-  margin: 5px;
-  padding: 5px;
-}
 
 .content {
+  flex:1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
 }
 
 
-.footer,
-.left-links,
-.right-links {
+.footer {
   display: flex;
   align-items: center;
 }
 
 .footer {
   justify-content: space-between;
+  background-color: rgb(216, 212, 212);
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  list-style: none; /*This takes off the dot from the list elem*/
+  margin: 0;
+  padding: 0;
+  gap: 16px; /*this adds the gap between list row elements*/
 }
