@@ -40,7 +40,6 @@ body{
 }
 
 .header {
-  /* background-color: rgb(243, 164, 243); */
   justify-content: space-between;
   padding:16px;
 }
